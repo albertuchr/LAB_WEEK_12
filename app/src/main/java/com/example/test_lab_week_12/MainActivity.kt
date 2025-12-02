@@ -50,6 +50,7 @@ class MainActivity : AppCompatActivity() {
                     movieViewModel.movies.collect { movies ->
                         movieAdapter.addMovies(movies)
                     }
+
                 }
 
                 // Collect Error
